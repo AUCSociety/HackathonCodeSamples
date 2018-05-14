@@ -15,10 +15,6 @@ function getPastLife(){
     xhr.send(null);
 }
 
-function getPunchline(){
-    document.getElementById("punchline").innerHTML = jokePunchline;
-}
-
 function clearPreviousPastLife(){
     document.getElementById("year").innerHTML = "";
     document.getElementById("name").innerHTML = "";
